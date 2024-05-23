@@ -1,40 +1,20 @@
- /* common shared styles */
+ /* Common shared styles */
  body {
-
      font-family: 'Lato', sans-serif;
-     font-family: 'open sans', sans-serif;
-
-
+     font-family: 'Open Sans', sans-serif;
  }
 
-
-
-
- /* nav releated style */
+ /* Navigation related styles */
  nav {
-
      display: flex;
-     /*  2 ta 2 duniate pathate  */
      justify-content: space-between;
-
-     /* verically row borabor same line ante */
      align-items: center;
      margin: 0 200px;
-
-
-
-
-
  }
 
  .text-primary {
-
      color: #FD6E0A;
-
-
  }
-
-
 
  .btn-primary {
      border-radius: 5px;
@@ -45,119 +25,75 @@
      font-style: normal;
      font-weight: 700;
      padding: 15px 35px;
-
-
  }
 
  .nav-title {
-
      color: #181818;
-     font-family: open sans;
+     font-family: 'Open Sans', sans-serif;
      font-size: 45px;
-
      font-weight: 800;
-
  }
 
  nav>ul {
-
      display: flex;
-     /* marryke vertically same borabor ante */
      align-items: center;
-
-
-
-
  }
 
  nav li {
-
      list-style: none;
-
-     /* margin 50 pixel mane 2 tar majhkhaner durotto */
      margin-right: 50px;
-
  }
 
- /* nicher underline gula tulte (nav ar vitore joto anchor ache )*/
  nav a {
-
      text-decoration: none;
      color: #474747;
-
  }
 
- /* header releated styles */
+ /* Header related styles */
  .header {
-
      background-color: #FFF8F3;
      background-image: url('../images/header_bg.png');
-     /* background repeaat ta off korte */
      background-repeat: no-repeat;
-     /* background position chai niche abong dan pase  */
-
      background-position: bottom right;
-
  }
 
  .banner-content {
-
      max-width: 500px;
-
-
  }
 
  main section {
-
      margin-top: 130px;
-
-
-
  }
 
  .section-title {
-
      color: #181818;
      text-align: center;
      font-size: 35px;
      font-weight: 700;
-
  }
 
  .banner {
-
      padding: 30px 30px 0px 150px;
-
-     /* picture pasa pasi ante  */
      display: flex;
      align-items: center;
-     /* 2 ta chobi majha majhi thakbe */
-
      justify-content: space-between;
-
-
  }
 
  .banner-description {
-
      color: #757575;
      text-align: center;
      font-size: 18px;
-
-
+     margin: 30px;
  }
 
- .banner.profile-picture {
-
-     width: 500px
+ .profile-picture {
+     width: 500px;
  }
 
  .banner-greeting {
-
      font-size: 45px;
      color: #474747;
      margin-bottom: 0;
-
  }
 
  .banner-title {
@@ -167,27 +103,13 @@
      margin-bottom: 20px;
  }
 
- .banner-description {
-
-     margin: 30px;
-
-
-
- }
-
- /* main section styles */
-
+ /* Main section styles */
  main {
-
      max-width: 1140px;
-     /* charpaser prachir */
      margin: 0 auto;
-
-
  }
 
-
- /* about section styles */
+ /* About section styles */
  .about {
      padding: 130px;
      border-radius: 10px;
@@ -195,77 +117,63 @@
      margin: 130px 0;
  }
 
-
-
  .about-info-container {
-
      display: flex;
      justify-content: space-around;
  }
 
  .about-info {
-
      text-align: center;
-
  }
 
- /* skills releated style */
+ /* Skills related styles */
  .skills-container {
-
      display: flex;
      gap: 24px;
-
-
  }
 
- .skil-description {
-
+ .skill-description {
      color: #757575;
-
-
  }
 
  #what-i-do-description {
-
      padding: 30px 150px;
  }
 
  .skill {
-
      padding: 30px;
      gap: 24px;
-
-
  }
 
- /* Resume colum section */
-
-
+ /* Resume column section */
  .resume-column-title {
-
      color: #474747;
      font-size: large;
      font-weight: 700;
-
-
-
-
  }
 
  .resume-container {
+     display: flex;
+ }
 
+ /* Resume section styles */
+ .resume-column-title {
+     color: #474747;
+     font-size: 30px;
+     font-weight: 700;
+ }
+
+ .resume-container {
      display: flex;
 
-
+     /* 2 tar majkhane gap toiri korte  */
+     gap: 50px;
 
  }
 
- /* resume section style */
- .resume-column-title {
-     color: #474747;
+ .resume-item-description,
+ .resume-item-institute {
 
-     font-size: 30px;
-     font-weight: 700;
-
+     color: purple;
 
  }
