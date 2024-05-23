@@ -154,26 +154,41 @@
 
  .resume-container {
      display: flex;
- }
-
- /* Resume section styles */
- .resume-column-title {
-     color: #474747;
-     font-size: 30px;
-     font-weight: 700;
- }
-
- .resume-container {
-     display: flex;
-
-     /* 2 tar majkhane gap toiri korte  */
      gap: 50px;
-
+     /* Adds space between columns */
  }
 
- .resume-item-description,
  .resume-item-institute {
-
+     margin-bottom: 20px;
+     margin-top: 0px;
      color: purple;
+ }
 
+ .resume-item-description {
+     color: purple;
+ }
+
+ .resume-container hr {
+     margin: 30px;
+ }
+
+ .resume-item-title {
+     color: #474747;
+     font-size: 25px;
+     font-weight: 700;
+     margin-bottom: 10px;
+ }
+
+ .download-cv {
+     text-align: center;
+     margin-top: 50px;
+     /* Adds space above the download button */
+ }
+
+ /* Footer styles */
+ footer {
+     display: flex;
+     background: #FFF8F3;
+     padding: 130px 200px;
+     margin-top: 100px;
  }
