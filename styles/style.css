@@ -216,6 +216,8 @@
  .contact input,
  textarea {
      display: block;
+     /*  2 tar majkhane gap srishti korte  */
+     margin-bottom: 25px;
 
 
 
