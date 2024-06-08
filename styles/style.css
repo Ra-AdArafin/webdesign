@@ -218,7 +218,10 @@
      display: block;
      /*  2 tar majkhane gap srishti korte  */
      margin-bottom: 25px;
-
-
-
+     padding: 18px 35px;
+     color: #757575;
+     border: 0;
+     width: 100%;
  }
+
+ .contact input
